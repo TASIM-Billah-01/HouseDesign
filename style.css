@@ -1,0 +1,97 @@
+/* Main Section */
+main {
+    /* No specific styles needed unless you want to add global main styles */
+  }
+  
+  /* Section Container */
+  main > .mb-1 {
+    margin-bottom: 0.25rem; /* 1 */
+  }
+  
+  .main-img {
+    margin-left: 1rem; /* Adjust for desired spacing */
+  }
+  
+  /* Section with max width and auto margins */
+  section {
+    max-width: 1280px; /* Adjust max-width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 3.5rem; /* 14 */
+  }
+  
+  /* Left Section */
+  .left-section {
+    margin-top: 0.5rem; /* 2 */
+    border: 1px solid #dc2626; /* red-800 */
+  }
+  
+  .left-section .text-content {
+    background-color: #FFFFFF; /* White */
+    border-radius: 9999px; /* Full rounded */
+    padding-left: 1rem; /* 4 */
+    padding-right: 1rem; /* 4 */
+    padding-top: 0.5rem; /* 2 */
+    padding-bottom: 0.5rem; /* 2 */
+    color: #494949; /* Custom grey */
+    font-weight: 600; /* Semi-bold */
+    margin-top: 1.5rem; /* 6 */
+  }
+  
+  .left-section h2 {
+    color: #212121; /* Custom dark grey */
+    font-weight: 700; /* Bold */
+    font-size: 3rem; /* 5xl */
+    margin-bottom: 1.5rem; /* 6 */
+  }
+  
+  .left-section p {
+    color: #494949; /* Custom grey */
+    font-weight: 500; /* Medium */
+    font-size: 1rem; /* Base */
+    margin-bottom: 1rem; /* 4 */
+  }
+  
+  .left-section .shadow-box {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's shadow-lg */
+    margin-top: 2rem; /* 8 */
+    display: flex;
+    gap: 1rem; /* 4 */
+    width: 34.375rem; /* 550px */
+    padding-left: 0.5rem; /* 2 */
+    padding-right: 0.5rem; /* 2 */
+    padding-top: 1rem; /* 4 */
+    padding-bottom: 1rem; /* 4 */
+  }
+  
+  .left-section .shadow-box img {
+    height: 4rem; /* 16 */
+    padding-left: 1.25rem; /* 5 */
+    padding-right: 1.25rem; /* 5 */
+  }
+  
+  .left-section .shadow-box h1,
+  .left-section .shadow-box h3 {
+    color: #494949; /* Custom grey */
+    font-weight: 700; /* Bold */
+    font-size: 1.25rem; /* XL */
+    margin-bottom: 0.75rem; /* 3 */
+  }
+  
+  .left-section .shadow-box p {
+    color: #494949; /* Custom grey */
+    font-weight: 500; /* Medium */
+    font-size: 1rem; /* Base */
+  }
+  
+  /* Right Section */
+  .right-section {
+    width: 50%; /* w-1/2 */
+    border: 1px solid #f59e0b; /* yellow-500 */
+  }
+  
+  .right-section img {
+    width: 100%; /* Ensures the image fills the container */
+  }
+  
